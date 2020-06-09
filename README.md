@@ -4,3 +4,6 @@
 
 ## click on this sandbox url to view
 open : https://oegz6.csb.app/
+
+### or clone this project using on your machine
+`git clone`
