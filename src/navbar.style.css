@@ -1,0 +1,15 @@
+.navbar{
+    background-color: #efefef;
+    padding: 1rem;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
