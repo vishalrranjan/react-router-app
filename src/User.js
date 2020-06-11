@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
+import Auth from './Auth';
 
-function User(){
+function User(props){
 
     const [items, setItems] = useState([]);
 
@@ -28,6 +29,13 @@ function User(){
                 ))
             }
             
+            <button
+            onClick={ ()=>{
+                Auth.logout(()=>{
+                    props.history.push("/");
+                })
+            }}
+            >Logout</button>
         </div>
     )
 }
